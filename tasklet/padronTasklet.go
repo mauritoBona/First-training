@@ -7,9 +7,9 @@ import (
 	"io"
 	"log"
 	"os"
-	"padrones/file"
-	"padrones/padronModel"
-	"padrones/threads"
+	"padrones/First-training/file"
+	"padrones/First-training/padronModel"
+	"padrones/First-training/threads"
 	"runtime"
 	"strings"
 	"sync"
@@ -30,7 +30,7 @@ func init() {
 }
 
 func main() {
-	var path = "D:\\GO\\src\\padrones\\file\\"
+	var path = "D:\\GO\\src\\padrones\\First-training\\file\\"
 	var fileName = "PadronRGSRet.txt"
 	file.ReplaceCharacterInFile(path, fileName, ",", ".")
 	f, err := os.Open(path + fileName)

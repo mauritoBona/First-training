@@ -2,8 +2,8 @@ package threads
 
 import (
 	"fmt"
-	"padrones/mySql"
-	"padrones/padronModel"
+	"padrones/First-training/mySql"
+	"padrones/First-training/padronModel"
 	"strings"
 	"sync"
 )
